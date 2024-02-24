@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Caveat:wght@600;700&family=Kanit:ital@1&family=Nunito:ital@1&family=Playball&family=Poppins:wght@200&family=Quicksand:wght@700&family=Sigmar&family=Signika&family=Work+Sans:wght@300&display=swap');
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    /* background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%); */
+    /* background-color: rgb(67, 113, 156); */
+    background-image: url("backgroundpic.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(-1.5rem);
+    color: black;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
